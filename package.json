@@ -1,0 +1,21 @@
+{
+  "name": "clogthis",
+  "version": "1.1.2",
+  "description": "A simple library to style and shorten console.log messages.",
+  "main": "index.js",
+  "types": "types/clogthis.d.ts",
+  "scripts": {
+    "test": "echo \"No tests specified\" && exit 0",
+    "publish-patch": "npm version patch && npm publish --access public",
+    "publish-minor": "npm version minor && npm publish --access public",
+    "publish-major": "npm version major && npm publish --access public"
+  },
+  "keywords": [
+    "console",
+    "log",
+    "stylize",
+    "logging"
+  ],
+  "author": "Lucas Trindade",
+  "license": "MIT"
+}
